@@ -9,13 +9,12 @@
   src: url(./fonts/Vonique64.ttf);
 }
 
-canvas {
-  background-color: var(--backgroundCol);
-  margin: 0cm;
-}
-
 body {
   background-color: var(--backgroundCol);
   margin: 0;
   font-family: "Quicksand", sans-serif;
+}
+canvas {
+  height: 100%;
+  width: 100%;
 }
