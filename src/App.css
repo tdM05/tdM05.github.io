@@ -2,6 +2,7 @@
   --textMain: rgb(245, 240, 236);
   --textSecondary: rgb(134, 133, 133);
   --textAccent: rgb(187, 142, 83);
+  --backgroundCol: rgb(39, 39, 39);
 }
 @font-face {
   font-family: "Vonique";
@@ -9,11 +10,12 @@
 }
 
 canvas {
-  background-color: rgb(0, 0, 0);
+  background-color: var(--backgroundCol);
+  margin: 0cm;
 }
 
 body {
-  background-color: rgb(39, 39, 39);
+  background-color: var(--backgroundCol);
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }

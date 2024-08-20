@@ -1,11 +1,14 @@
 .taddmao {
   color: var(--textMain);
   font-size: 100pt;
-  margin: 0;
+  margin: 0cm;
   padding: 0cm;
+  background-color: rgba(240, 248, 255, 0);
 }
 .hello {
   margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   text-align: left;
   color: var(--textSecondary);
 }

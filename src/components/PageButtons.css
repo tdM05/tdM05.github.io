@@ -5,8 +5,6 @@
 :root {
   --height: 1.5cm;
   --boxCol: rgb(27, 27, 27);
-  --textCol: rgb(204, 204, 204);
-  --textColCurrent: rgb(160, 159, 238);
   --font: "Vonique";
 }
 
@@ -22,7 +20,7 @@
   background-color: rgba(240, 248, 255, 0);
 }
 .pageButton:hover {
-  color: rgb(0, 117, 78);
+  color: var(--textSecondary);
   height: var(--height);
   width: 3cm;
   border-style: solid;
@@ -41,7 +39,7 @@
   background-color: rgba(53, 60, 66, 0);
 }
 .pageButtonRight:hover {
-  color: rgb(0, 117, 78);
+  color: var(--textSecondary);
   height: var(--height);
   width: 3cm;
   border-style: solid;

@@ -1,0 +1,52 @@
+.modelViewer {
+  display: inline-block;
+  width: 10cm;
+  height: 5cm;
+  background-color: var(--backgroundCol);
+}
+.headBox {
+  margin: 20px;
+}
+.welcome {
+  font-size: 50pt;
+  color: var(--textMain);
+}
+.tag {
+  color: var(--textSecondary);
+  margin-left: 200px;
+}
+.sketch1Box {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  height: 20cm;
+  background-color: rgba(0, 255, 255, 0);
+  overflow: hidden;
+}
+.sketch1 {
+  float: right;
+  height: 100%;
+  object-fit: cover;
+}
+.sketch2 {
+  clear: right;
+  width: 50%;
+}
+.sketch {
+  float: right;
+  width: 50%;
+}
+.boxTitle {
+  width: 10cm;
+  color: var(--backgroundCol);
+  background-color: var(--textAccent);
+  display: inline;
+  padding: 5px;
+}
+
+.leftSide {
+  background-color: rgba(170, 139, 102, 0);
+  height: 100%;
+  width: 100%;
+  float: left;
+}

@@ -18,7 +18,7 @@ function Introduction() {
         <h1 className="taddmao">TADD MAO</h1>
         <div className="tag">
           <div className="line"></div>
-          <div className="tagText">Programmer, Musician, and Artist.</div>
+          <div className="tagText">Programmer, Musician, and Artist</div>
         </div>
       </div>
     </>
