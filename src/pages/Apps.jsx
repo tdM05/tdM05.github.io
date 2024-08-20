@@ -5,6 +5,13 @@ export default function AppsPage() {
     <>
       <PageButtons />
       <h1>Apps</h1>
+      <h2>
+        Food Companion:{" "}
+        <a href="https://github.com/tdM05/FoodCompanion" target="_blank">
+          Git Link
+        </a>
+      </h2>
+      <p>Description here</p>
     </>
   );
 }

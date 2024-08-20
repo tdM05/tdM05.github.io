@@ -5,6 +5,7 @@ import NoPage from "./pages/NoPage";
 import ArtsPage from "./pages/Art";
 import PageButtons from "./components/PageButtons";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (

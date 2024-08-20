@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Vonique";
+  src: url(../fonts/Vonique64.ttf);
+}
+:root {
+  --height: 1.5cm;
+  --boxCol: rgb(27, 27, 27);
+  --textCol: rgb(204, 204, 204);
+  --textColCurrent: rgb(160, 159, 238);
+  --font: "Vonique";
+}
+
+.pageButton {
+  color: var(--textMain);
+  font-family: var(--font);
+  height: var(--height);
+  width: 3cm;
+  border-style: solid;
+  vertical-align: top;
+  margin: 0cm;
+  border-color: rgba(240, 248, 255, 0);
+  background-color: rgba(240, 248, 255, 0);
+}
+.pageButton:hover {
+  color: rgb(0, 117, 78);
+  height: var(--height);
+  width: 3cm;
+  border-style: solid;
+  margin: 0cm;
+  border-color: rgba(240, 248, 255, 0);
+  background-color: rgba(240, 248, 255, 0);
+}
+.pageButtonRight {
+  font-family: var(--font);
+  color: var(--textMain);
+  height: var(--height);
+  width: 3cm;
+  border-style: solid;
+  margin: 0cm;
+  border-color: rgba(240, 248, 255, 0);
+  background-color: rgba(53, 60, 66, 0);
+}
+.pageButtonRight:hover {
+  color: rgb(0, 117, 78);
+  height: var(--height);
+  width: 3cm;
+  border-style: solid;
+  margin: 0cm;
+  border-color: rgba(240, 248, 255, 0);
+  background-color: rgba(240, 248, 255, 0);
+}
+.pageButtons {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-color: var(--boxCol);
+}
+
+.verticleLine {
+  margin: 0cm;
+  color: black;
+  border-color: black;
+}
