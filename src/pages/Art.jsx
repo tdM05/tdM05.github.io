@@ -21,7 +21,6 @@ export default function ArtsPage() {
             enablePan={1 == 2}
           ></OrbitControls>
           <Suspense fallback={null}>
-            {/* <PerspectiveCamera></PerspectiveCamera> */}
             <Frigate />
           </Suspense>
           <Environment preset="sunset" />
