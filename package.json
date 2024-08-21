@@ -1,9 +1,9 @@
 {
+  "homepage": "http://tdm05.github.io/",
   "name": "tadd-website--react-js-",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://tdm05.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
