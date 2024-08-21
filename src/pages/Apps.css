@@ -1,0 +1,48 @@
+.appFrame {
+  display: flex;
+  background-color: rgb(48, 48, 48);
+  height: 10cm;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 120px;
+  border-radius: 25px;
+  color: var(--textMain);
+}
+.iFrame {
+  display: inline;
+  height: 100%;
+  width: 30cm;
+  object-fit: cover;
+  background-color: rgb(141, 34, 141);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.leftBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 245, 220, 0);
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 228, 196, 0);
+  align-items: center;
+  height: 23cm;
+  color: var(--textMain);
+}
+.titleText {
+  font-size: 100pt;
+}
+h2 {
+  color: var(--textAccent);
+}
+a {
+  color: var(--textSecondary);
+}
+.leftP {
+  text-align: left;
+}

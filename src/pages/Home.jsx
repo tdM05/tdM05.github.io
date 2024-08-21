@@ -1,5 +1,6 @@
 import PageButtons from "../components/PageButtons.jsx";
 import "./Home.css";
+import GoToTop from "../GoToTop.jsx";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ function Introduction() {
           <div className="tagText">Programmer, Musician, and Artist</div>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 }

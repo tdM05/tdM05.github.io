@@ -8,6 +8,7 @@ import "./Art.css";
 import { Fourth_eye } from "../../public/Fourth_eye.jsx";
 import GasMask from "../../public/GasMask.jsx";
 import a from "../../public/images/cave.jpg";
+import GoToTop from "../GoToTop.jsx";
 
 export default function ArtsPage() {
   return (
@@ -23,7 +24,7 @@ export default function ArtsPage() {
       <div className="sketch1Box">
         <div className="leftSide">
           <div className="boxTitle">Bucket and Pepper</div>
-          <p style={{ color: "var(--textMain)" }}>
+          <p className="leftText">
             The bucket and Pepper is one of my earlier sketches during my time
             in China. I visited China during the summer of 2024 to see family
             and I was (and still am) very interested in art. I had always wanted
@@ -40,7 +41,7 @@ export default function ArtsPage() {
         <img className="sketch2" src={"../../public/images/sketch2.jpg"} />
         <div className="rightSide">
           <div className="boxTitle">The Cube and the Apple</div>
-          <p style={{ color: "var(--textMain)" }}>
+          <p className="leftText">
             This was done during the middle of my art lessons in China. Notice
             that the lines are more definite and the drawing is cleaner than the
             first one.
@@ -51,7 +52,7 @@ export default function ArtsPage() {
       <div className="sketch3Box">
         <div className="leftSide">
           <div className="boxTitle">Final Sketch</div>
-          <p style={{ color: "var(--textMain)" }}>
+          <p className="leftText">
             As the final sketch during my time in China, this is by far the one
             I'm most proud of. Did you know that to get this quality, you have
             to essentially draw it three times? First there is the initial
@@ -64,24 +65,31 @@ export default function ArtsPage() {
         <img className="sketch1" src={"../../public/images/sketch3.jpg"} />
       </div>
       <p className="section2">Digital Paintings</p>
-      <div className="digitalPaintBox">
-        <img src={"../../public/images/cave.jpg"} />
-        <div style={{ width: "40px" }}></div>
-        <img src={"../../public/images/girl face.jpg"} />
-        <div>
-          <p style={{ color: "var(--textMain)", margin: "20px" }}>
-            These two paintings where done with my ipad. I used to only use my
-            ipad for school-related tasks like note taking, studying etc. One
-            day I realized that I could also draw with it. I got excited and
-            created these two paintings.
-          </p>
-          <p style={{ color: "var(--textMain)", margin: "20px" }}>
-            These digital paintings were mostly done for fun and I enjoyed it
-            very much so currently I am trying to practice my art fudamentals in
-            order to improve my art. This includes studying anatomy, values, and
-            color.
+      <div className="sketch2Box">
+        <img className="sketch2" src={"../../public/images/cave.jpg"} />
+        <div className="rightSide">
+          <div className="boxTitle">Cave of Zalarous</div>
+          <p className="leftText">
+            The Cave of Zalarous is a digital painting done on my ipad using the
+            program SketchBook. During the winter of 2023, I found myself in
+            exam week and exam week and I did not have many exams because two of
+            my courses were full year so those did not have winter exams. So I
+            started drawing with my ipad and this is the first finished digital
+            painting I've ever made.
           </p>
         </div>
+      </div>
+      <div className="sketch1Box">
+        <div className="leftSide">
+          <div className="boxTitle">A portrait of a Girl</div>
+          <p className="leftText">
+            After exam week, it was winter break for me. I was satisfied with
+            the Cave of Zalarous and wanted to see how good of a face I could
+            draw. I had been studying drawing skulls at this time so I wanted to
+            PageButtonsmy knowledge to the test!
+          </p>
+        </div>
+        <img className="sketch1" src={"../../public/images/girl face.jpg"} />
       </div>
       <p className="section3">3d Models</p>
       <div className="boxTitle">
@@ -120,6 +128,7 @@ export default function ArtsPage() {
           </p>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 }
