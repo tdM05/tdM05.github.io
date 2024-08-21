@@ -1,11 +1,13 @@
 {
-  "homepage": "http://tdm05.github.io/tadd-website--react-js-",
+  "homepage": "http://tdm05.github.io/",
   "name": "tadd-website--react-js-",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
