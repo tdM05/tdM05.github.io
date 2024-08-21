@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://https://tdm05.github.io/",
+  "homepage": "http://tdm05.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
