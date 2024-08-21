@@ -1,7 +1,7 @@
 {
   "homepage": "http://tdm05.github.io/",
   "name": "tadd-website--react-js-",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
