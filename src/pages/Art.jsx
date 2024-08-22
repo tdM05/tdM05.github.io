@@ -7,7 +7,6 @@ import "../App.css";
 import "./Art.css";
 import { Fourth_eye } from "../../public/Fourth_eye.jsx";
 import GasMask from "../../public/GasMask.jsx";
-import a from "./sketch1.jpg";
 import GoToTop from "../GoToTop.jsx";
 
 export default function ArtsPage() {
