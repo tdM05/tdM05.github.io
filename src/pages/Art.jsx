@@ -85,7 +85,7 @@ export default function ArtsPage() {
             After exam week, it was winter break for me. I was satisfied with
             the Cave of Zalarous and wanted to see how good of a face I could
             draw. I had been studying drawing skulls at this time so I wanted to
-            PageButtonsmy knowledge to the test!
+            put my knowledge to the test!
           </p>
         </div>
         <img className="sketch1" src={"./girl face.jpg"} />

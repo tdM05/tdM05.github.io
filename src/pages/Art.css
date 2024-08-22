@@ -19,8 +19,10 @@
 .sketch1Box {
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  margin: auto;
+  width: 30cm;
   margin-top: 100px;
   height: 25cm;
   background-color: rgba(0, 255, 255, 0);
@@ -33,8 +35,8 @@
 .sketch2Box {
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: auto;
+  width: 30cm;
   margin-top: 100px;
   height: 15cm;
   background-color: rgba(0, 255, 255, 0);
@@ -43,10 +45,10 @@
 .sketch3Box {
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: auto;
+  width: 30cm;
   margin-top: 100px;
-  height: 20cm;
+  height: 16cm;
   background-color: rgba(0, 255, 255, 0);
   overflow: hidden;
 }

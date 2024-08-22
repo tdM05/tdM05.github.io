@@ -44,7 +44,7 @@ export default function MusicPage() {
         ></iframe>
         <div className="botBox">
           <div className="boSmallBox">
-            <h1 className="itemTitle">Summer movement I — Vivaldi</h1>
+            <h1 className="itemTitle">Summer — Vivaldi</h1>
             <p className="descriptionSmallBox">
               During my time with the PGYSO (Prince George Youth Symphony
               Orchestra) I, along with some of the other advanced musicians got
