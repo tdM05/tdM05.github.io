@@ -33,11 +33,11 @@ export default function ArtsPage() {
             art lessons that I took during my time in China.
           </p>
         </div>
-        <img className="sketch1" src={"./cave.jpg"} />
+        <img className="sketch1" src={"./sketch1.jpg"} />
       </div>
 
       <div className="sketch2Box">
-        <img className="sketch2" src={"../../public/sketch2.jpg"} />
+        <img className="sketch2" src={"./sketch2.jpg"} />
         <div className="rightSide">
           <div className="boxTitle">The Cube and the Apple</div>
           <p className="leftText">
@@ -61,11 +61,11 @@ export default function ArtsPage() {
             total, this one sketch took about 6 hours.
           </p>
         </div>
-        <img className="sketch1" src={"../../public/sketch3.jpg"} />
+        <img className="sketch1" src={"./sketch3.jpg"} />
       </div>
       <p className="section2">Digital Paintings</p>
       <div className="sketch2Box">
-        <img className="sketch2" src={"../../public/cave.jpg"} />
+        <img className="sketch2" src={"./cave.jpg"} />
         <div className="rightSide">
           <div className="boxTitle">Cave of Zalarous</div>
           <p className="leftText">
@@ -88,7 +88,7 @@ export default function ArtsPage() {
             PageButtonsmy knowledge to the test!
           </p>
         </div>
-        <img className="sketch1" src={"../../public/girl face.jpg"} />
+        <img className="sketch1" src={"./girl face.jpg"} />
       </div>
       <p className="section3">3d Models</p>
       <div className="boxTitle">
