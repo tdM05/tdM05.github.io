@@ -7,7 +7,7 @@ import "../App.css";
 import "./Art.css";
 import { Fourth_eye } from "../../public/Fourth_eye.jsx";
 import GasMask from "../../public/GasMask.jsx";
-import a from "../../public/cave.jpg";
+import a from "./sketch1.jpg";
 import GoToTop from "../GoToTop.jsx";
 
 export default function ArtsPage() {
@@ -34,7 +34,7 @@ export default function ArtsPage() {
             art lessons that I took during my time in China.
           </p>
         </div>
-        <img className="sketch1" src={"../../public/sketch1.jpg"} />
+        <img className="sketch1" src={"./cave.jpg"} />
       </div>
 
       <div className="sketch2Box">
