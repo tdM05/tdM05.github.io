@@ -7,7 +7,7 @@ import "../App.css";
 import "./Art.css";
 import { Fourth_eye } from "../../public/Fourth_eye.jsx";
 import GasMask from "../../public/GasMask.jsx";
-import a from "../../public/images/cave.jpg";
+import a from "../../public/cave.jpg";
 import GoToTop from "../GoToTop.jsx";
 
 export default function ArtsPage() {
@@ -34,11 +34,11 @@ export default function ArtsPage() {
             art lessons that I took during my time in China.
           </p>
         </div>
-        <img className="sketch1" src={"../../public/images/sketch1.jpg"} />
+        <img className="sketch1" src={"../../public/sketch1.jpg"} />
       </div>
 
       <div className="sketch2Box">
-        <img className="sketch2" src={"../../public/images/sketch2.jpg"} />
+        <img className="sketch2" src={"../../public/sketch2.jpg"} />
         <div className="rightSide">
           <div className="boxTitle">The Cube and the Apple</div>
           <p className="leftText">
@@ -62,11 +62,11 @@ export default function ArtsPage() {
             total, this one sketch took about 6 hours.
           </p>
         </div>
-        <img className="sketch1" src={"../../public/images/sketch3.jpg"} />
+        <img className="sketch1" src={"../../public/sketch3.jpg"} />
       </div>
       <p className="section2">Digital Paintings</p>
       <div className="sketch2Box">
-        <img className="sketch2" src={"../../public/images/cave.jpg"} />
+        <img className="sketch2" src={"../../public/cave.jpg"} />
         <div className="rightSide">
           <div className="boxTitle">Cave of Zalarous</div>
           <p className="leftText">
@@ -89,7 +89,7 @@ export default function ArtsPage() {
             PageButtonsmy knowledge to the test!
           </p>
         </div>
-        <img className="sketch1" src={"../../public/images/girl face.jpg"} />
+        <img className="sketch1" src={"../../public/girl face.jpg"} />
       </div>
       <p className="section3">3d Models</p>
       <div className="boxTitle">
