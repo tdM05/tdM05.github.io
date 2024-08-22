@@ -33,7 +33,7 @@ export default function ArtsPage() {
             art lessons that I took during my time in China.
           </p>
         </div>
-        <img className="sketch1" src={"./sketch1.jpg"} />
+        <img className="sketch1" src="./sketch1.jpg" />
       </div>
 
       <div className="sketch2Box">
