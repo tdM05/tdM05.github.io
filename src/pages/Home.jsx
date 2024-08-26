@@ -3,6 +3,7 @@ import "./Home.css";
 import GoToTop from "../GoToTop.jsx";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import ArtsPage from "./Art.jsx";
 
 export default function HomePage() {
   return (
