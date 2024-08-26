@@ -4,8 +4,10 @@
 }
 :root {
   --height: 1.5cm;
+  --mobileHeight: 1cm;
   --boxCol: rgb(27, 27, 27);
   --font: "Vonique";
+  --mobileWidth: 100%;
 }
 
 .pageButton {
@@ -62,13 +64,23 @@
   color: black;
   border-color: black;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 600px) {
+  .pageButtons {
+    display: flex;
+    position: sticky;
+    height: var(--mobileHeight);
+    top: 0;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--boxCol);
+  }
   .pageButton {
     font-size: 7pt;
     color: var(--textMain);
     font-family: var(--font);
-    height: var(--height);
-    width: 1cm;
+    height: var(--mobileHeight);
+    width: var(--mobileWidth);
     border-style: solid;
     vertical-align: top;
     margin: 0cm;
@@ -78,8 +90,8 @@
   .pageButton:hover {
     font-size: 7pt;
     color: var(--textSecondary);
-    height: var(--height);
-    width: 1cm;
+    height: var(--mobileHeight);
+    width: var(--mobileWidth);
     border-style: solid;
     margin: 0cm;
     border-color: rgba(240, 248, 255, 0);
@@ -89,8 +101,8 @@
     font-size: 7pt;
     font-family: var(--font);
     color: var(--textMain);
-    height: var(--height);
-    width: 1cm;
+    height: var(--mobileHeight);
+    width: var(--mobileWidth);
     border-style: solid;
     margin: 0cm;
     border-color: rgba(240, 248, 255, 0);
@@ -99,8 +111,8 @@
   .pageButtonRight:hover {
     font-size: 7pt;
     color: var(--textSecondary);
-    height: var(--height);
-    width: 1cm;
+    height: var(--mobileHeight);
+    width: var(--mobileWidth);
     border-style: solid;
     margin: 0cm;
     border-color: rgba(240, 248, 255, 0);
