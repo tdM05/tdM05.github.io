@@ -22,7 +22,6 @@ function Introduction() {
       <div className="line"></div>
       {/* <div className="lineV"></div> */}
       <div className="tagText">Programmer, Musician, and Artist</div>
-
       <div className="contact">
         <h3>Contact Information</h3>
 

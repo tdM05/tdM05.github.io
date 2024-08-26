@@ -16,17 +16,15 @@
   background-color: rgba(0, 255, 255, 0);
   text-align: center;
 }
+
 .sketch1Box {
   display: flex;
   justify-content: space-between;
-  /* margin-left: 200px;
-  margin-right: 200px; */
   margin: auto;
   width: 30cm;
   margin-top: 100px;
   height: 25cm;
-  background-color: rgba(0, 255, 255, 0);
-  overflow: hidden;
+  background-color: rgba(187, 255, 0, 0.11);
 }
 .leftText {
   text-align: left;
@@ -147,4 +145,28 @@
   width: 100%;
   margin: 10px;
   height: 15cm;
+}
+@media only screen and (max-width: 1200px) {
+  .sketch1Box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(187, 255, 0, 0.11);
+  }
+  .sketch1 {
+    height: 100%;
+    object-fit: cover;
+  }
+  .leftText {
+    color: var(--textMain);
+    background-color: aquamarine;
+  }
+  .leftSide {
+    background-color: rgba(167, 103, 26, 0.651);
+    height: auto;
+  }
 }
