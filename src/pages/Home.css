@@ -2,6 +2,7 @@
   --lineWidth: 2px;
   --animTopMargin: 91px;
   --animBotMargin: 500px;
+  --goToTopPos: 160px;
 }
 .icon {
   color: var(--textMain);
@@ -134,13 +135,13 @@ p {
   }
 
   92% {
-    margin-top: 160px;
+    margin-top: var(--goToTopPos);
     width: var(--lineWidth);
     height: 150px;
     margin-left: -200px;
   }
   95% {
-    margin-top: 91px;
+    margin-top: var(--animTopMargin);
     width: var(--lineWidth);
     height: var(--lineWidth);
     margin-left: -200px;
@@ -184,7 +185,7 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: -100px;
-    margin-left: -20px;
+    margin-left: -40px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-overflow: ellipsis;
@@ -202,7 +203,7 @@ h3 {
     font-size: 75pt;
     width: 5cm;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 50px;
     padding: 0cm;
     background-color: rgba(17, 88, 151, 0);
   }
@@ -216,5 +217,9 @@ h3 {
     width: 2cm;
     margin-top: 230px;
     margin-left: 30px;
+  }
+  .line {
+    --animTopMargin: 232px;
+    --goToTopPos: 300px;
   }
 }
