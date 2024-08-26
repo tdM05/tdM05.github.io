@@ -173,6 +173,22 @@ p {
     background-color: rgba(245, 245, 220, 0);
     width: 100%;
   }
+  .itemTag {
+    color: var(--textAccent);
+    font-size: 12pt;
+    border-top-color: var(--textAccent);
+    border-left-color: rgba(102, 51, 153, 0);
+    border-bottom-color: rgba(102, 51, 153, 0);
+    border-style: solid;
+    border-right-color: rgba(102, 51, 153, 0);
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
 }
 
 .descriptionSmallBox {
