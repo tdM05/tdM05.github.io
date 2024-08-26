@@ -2,6 +2,7 @@
   --lineWidth: 2px;
   --animTopMargin: 91px;
   --animBotMargin: 500px;
+  --animLeftMost: -200px;
   --goToTopPos: 160px;
 }
 .icon {
@@ -99,19 +100,19 @@ p {
     margin-top: var(--animTopMargin);
     width: var(--lineWidth);
     height: var(--lineWidth);
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
   42% {
     margin-top: 420px;
     width: var(--lineWidth);
     height: 150px;
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
   45% {
     margin-top: var(--animBotMargin);
     width: var(--lineWidth);
     height: var(--lineWidth);
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
   50% {
     /* contact underlined */
@@ -131,20 +132,20 @@ p {
     margin-top: var(--animBotMargin);
     width: var(--lineWidth);
     height: var(--lineWidth);
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
 
   92% {
     margin-top: var(--goToTopPos);
     width: var(--lineWidth);
     height: 150px;
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
   95% {
     margin-top: var(--animTopMargin);
     width: var(--lineWidth);
     height: var(--lineWidth);
-    margin-left: -200px;
+    margin-left: var(--animLeftMost);
   }
   100% {
     margin-top: var(--animTopMargin);
@@ -221,5 +222,6 @@ h3 {
   .line {
     --animTopMargin: 232px;
     --goToTopPos: 300px;
+    --animLeftMost: -140px;
   }
 }
