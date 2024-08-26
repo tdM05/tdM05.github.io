@@ -3,6 +3,7 @@
   --animTopMargin: 91px;
   --animBotMargin: 500px;
   --animLeftMost: -200px;
+  --animeFinalWidth: 170px;
   --goToTopPos: 160px;
 }
 .icon {
@@ -86,7 +87,7 @@ p {
 @keyframes line {
   0% {
     margin-top: var(--animTopMargin);
-    width: 170px;
+    width: var(--animeFinalWidth);
     height: var(--lineWidth);
     margin-left: -100px;
   }
@@ -149,7 +150,7 @@ p {
   }
   100% {
     margin-top: var(--animTopMargin);
-    width: 170px;
+    width: var(--animeFinalWidth);
     height: var(--lineWidth);
   }
 }
@@ -171,7 +172,7 @@ p {
   transform: translate(-50%, -50%);
   background-color: rgba(0, 255, 255, 0);
   margin-top: 520px;
-  width: 10cm;
+  width: 100%;
   text-align: center;
 }
 h3 {
@@ -180,6 +181,10 @@ h3 {
 }
 
 @media only screen and (max-width: 1000px) {
+  h3 {
+    color: var(--textAccent);
+    font-size: 20pt;
+  }
   .hello {
     position: absolute;
     top: 50%;
@@ -201,7 +206,7 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--textMain);
-    font-size: 75pt;
+    font-size: 70pt;
     width: 5cm;
     text-align: center;
     margin-top: 50px;
@@ -223,5 +228,6 @@ h3 {
     --animTopMargin: 232px;
     --goToTopPos: 300px;
     --animLeftMost: -140px;
+    ----animeFinalWidth: 10px;
   }
 }

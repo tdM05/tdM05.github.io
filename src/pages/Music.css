@@ -68,7 +68,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(194, 209, 141, 0);
+  background-color: rgba(122, 148, 27, 0);
   width: 100%;
   height: 22cm;
   font-size: 50pt;
@@ -138,6 +138,31 @@ p {
 .descriptionBox {
   width: 22cm;
   margin-left: 30px;
+}
+@media only screen and (max-width: 471px) {
+  .mainl {
+    grid-area: 1/1/1/1;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+  }
+  .decorl {
+    grid-area: 1/1/1/1;
+    background-color: rgba(136, 255, 0, 0);
+    border-left-color: var(--textAccent);
+    border-bottom-color: rgba(102, 51, 153, 0);
+    border-top-color: var(--textAccent);
+    border-right-color: rgba(240, 248, 255, 0);
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    animation-name: l;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+  }
 }
 @media only screen and (max-width: 1416px) {
   .descriptionBox {

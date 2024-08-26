@@ -48,6 +48,9 @@ a {
 }
 
 @media only screen and (max-width: 1016px) {
+  .titleText {
+    font-size: 80pt;
+  }
   .leftBox {
     display: block;
     background-color: rgba(245, 245, 220, 0);
@@ -60,7 +63,7 @@ a {
     background-color: rgb(48, 48, 48);
     height: auto;
     flex-direction: column;
-    margin: 120px;
+    margin: 20px;
     border-radius: 25px;
     color: var(--textMain);
   }

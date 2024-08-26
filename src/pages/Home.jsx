@@ -20,7 +20,6 @@ function Introduction() {
       <p className="hello">Hello, I'm</p>
       <h1 className="taddmao">TADD MAO</h1>
       <div className="line"></div>
-      {/* <div className="lineV"></div> */}
       <div className="tagText">Programmer, Musician, and Artist</div>
       <div className="contact">
         <h3>Contact Information</h3>
