@@ -24,7 +24,7 @@
   width: 30cm;
   margin-top: 100px;
   height: 25cm;
-  background-color: rgba(187, 255, 0, 0.11);
+  background-color: rgba(187, 255, 0, 0);
 }
 .leftText {
   text-align: left;
@@ -153,20 +153,34 @@
     flex-direction: row;
     margin: 30px;
     width: auto;
+    height: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: rgba(187, 255, 0, 0.11);
+    background-color: rgba(187, 255, 0, 0);
   }
   .sketch1 {
-    height: 100%;
-    object-fit: cover;
-  }
-  .leftText {
-    color: var(--textMain);
-    background-color: aquamarine;
+    width: 100%;
+    object-fit: contain;
   }
   .leftSide {
-    background-color: rgba(167, 103, 26, 0.651);
+    background-color: rgba(167, 104, 26, 0);
     height: auto;
+    margin-right: 0px;
+  }
+  .sketch2Box {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    margin-top: 0;
+    background-color: rgba(187, 255, 0, 0);
+  }
+  .sketch2 {
+    width: 100%;
+    float: bottom;
+    object-fit: contain;
+  }
+  .rightSide {
+    background-color: rgba(167, 104, 26, 0);
   }
 }

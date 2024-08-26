@@ -141,7 +141,7 @@ p {
 }
 @media only screen and (max-width: 1416px) {
   .descriptionBox {
-    margin: 0;
+    margin: 30px;
     padding: 0;
     width: auto;
     background-color: rgba(127, 255, 212, 0);
@@ -150,8 +150,8 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    margin: 10px;
+    width: auto;
+    margin: 30px;
     background-color: rgba(82, 126, 89, 0);
     align-items: center;
   }
@@ -165,11 +165,20 @@ p {
     width: 100%;
     background-color: rgba(255, 228, 196, 0);
   }
+  .boSmallBox {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0);
+    width: 100%;
+  }
 }
 
 .descriptionSmallBox {
   text-align: center;
-  width: 13cm;
+  width: auto;
+  margin: 30px;
   background-color: rgba(255, 0, 0, 0);
   border-top-color: var(--textAccent);
   border-bottom-color: rgba(255, 0, 0, 0);
