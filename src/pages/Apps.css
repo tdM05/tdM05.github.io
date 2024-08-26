@@ -13,7 +13,7 @@
   height: 100%;
   width: 30cm;
   object-fit: cover;
-  background-color: rgb(141, 34, 141);
+  background-color: rgba(141, 34, 141, 0);
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -45,4 +45,32 @@ a {
 }
 .leftP {
   text-align: left;
+}
+
+@media only screen and (max-width: 1016px) {
+  .leftBox {
+    display: block;
+    background-color: rgba(245, 245, 220, 0);
+    margin: 0;
+    padding: 20px;
+    width: auto;
+  }
+  .appFrame {
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    height: auto;
+    flex-direction: column;
+    margin: 120px;
+    border-radius: 25px;
+    color: var(--textMain);
+  }
+  .iFrame {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(141, 34, 141, 0);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 25px;
+  }
 }
