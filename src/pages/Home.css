@@ -180,7 +180,7 @@ h3 {
   font-size: 20pt;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   h3 {
     color: var(--textAccent);
     font-size: 20pt;
@@ -227,6 +227,58 @@ h3 {
   .line {
     --animTopMargin: 232px;
     --goToTopPos: 300px;
+    --animLeftMost: -140px;
+    ----animeFinalWidth: 10px;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  h3 {
+    color: var(--textAccent);
+    font-size: 20pt;
+  }
+  .hello {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0px;
+    margin-left: -40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--textSecondary);
+    background-color: rgba(255, 228, 196, 0);
+  }
+  .taddmao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--textMain);
+    font-size: 70pt;
+    width: 5cm;
+    text-align: center;
+    margin-top: 150px;
+    padding: 0cm;
+    background-color: rgba(17, 88, 151, 0);
+  }
+  .tagText {
+    color: var(--textAccent);
+    background-color: rgba(0, 255, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2cm;
+    margin-top: 330px;
+    margin-left: 30px;
+  }
+  .line {
+    --animTopMargin: 332px;
+    --goToTopPos: 400px;
     --animLeftMost: -140px;
     ----animeFinalWidth: 10px;
   }
