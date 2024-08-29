@@ -232,7 +232,7 @@ h3 {
   }
 }
 
-@media only screen and (max-height: 350px) {
+@media only screen and (max-height: 370px) {
   h3 {
     color: var(--textAccent);
     font-size: 20pt;
