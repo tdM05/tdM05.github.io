@@ -1,7 +1,7 @@
 import PageButtons from "../components/PageButtons.jsx";
-import { Canvas, render } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
-import { useState, Suspense } from "react";
+import { Suspense } from "react";
 import Frigate from "../../public/Frigate.jsx";
 import "../App.css";
 import "./Art.css";

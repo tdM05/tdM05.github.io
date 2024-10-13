@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./PageButtons.css";
+import PropTypes from 'prop-types';
+
 function PageButtons() {
   return (
     <>
@@ -40,4 +42,9 @@ function PageButton({ name, page, isRightButton = 0 }) {
   }
 }
 
+PageButton.propTypes = {
+    name: PropTypes.string.isRequired,
+    page: PropTypes.string.isRequired,
+    isRightButton: PropTypes.number
+};
 export default PageButtons;
