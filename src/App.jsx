@@ -3,7 +3,7 @@ import HomePage from "./pages/Home";
 import MusicPage from "./pages/Music";
 import NoPage from "./pages/NoPage";
 import ArtsPage from "./pages/Art";
-import PageButtons from "./components/PageButtons";
+import PageButtons from "./components/General/PageButtons.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 

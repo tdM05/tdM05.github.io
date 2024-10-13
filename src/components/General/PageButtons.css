@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Vonique";
-  src: url(../fonts/Vonique64.ttf);
+  src: url(../../fonts/Vonique64.ttf);
 }
 :root {
   --height: 1.5cm;

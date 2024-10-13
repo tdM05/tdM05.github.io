@@ -1,7 +1,7 @@
-import "../pages/Apps.css";
+import "./AppPanel.css";
 import PropTypes from "prop-types";
 
-export default function AppField({description, moreLink, videoLink}) {
+export default function AppPanel({description, moreLink, videoLink}) {
     return (
         <div className="appFrame">
             <div className="leftBox">
@@ -29,7 +29,7 @@ export default function AppField({description, moreLink, videoLink}) {
     )
 }
 
-AppField.propTypes = {
+AppPanel.propTypes = {
     description: PropTypes.string.isRequired,
     moreLink: PropTypes.string.isRequired,
     videoLink: PropTypes.string.isRequired

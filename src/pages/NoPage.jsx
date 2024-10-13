@@ -1,4 +1,4 @@
-import PageButtons from "../components/PageButtons.jsx";
+import PageButtons from "../components/General/PageButtons.jsx";
 
 export default function NoPage() {
   return (

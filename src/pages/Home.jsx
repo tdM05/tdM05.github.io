@@ -1,4 +1,4 @@
-import PageButtons from "../components/PageButtons.jsx";
+import PageButtons from "../components/General/PageButtons.jsx";
 import "./Home.css";
 import GoToTop from "../GoToTop.jsx";
 import { MdEmail } from "react-icons/md";

@@ -1,7 +1,7 @@
-import PageButtons from "../components/PageButtons.jsx";
+import PageButtons from "../components/General/PageButtons.jsx";
 import "./Apps.css";
 import GoToTop from "../GoToTop.jsx";
-import AppField from "../components/AppField.jsx";
+import AppPanel from "../components/AppsPage/AppPanel.jsx";
 
 export default function AppsPage() {
   return (
@@ -10,7 +10,7 @@ export default function AppsPage() {
       <div className="title">
         <h1 className="titleText">Apps</h1>
       </div>
-      <AppField
+      <AppPanel
           description={"This project was done for the hackathon medihacks and I collaborated\n" +
           "with 3 other developpers. Our app relieves the responsibility of\n" +
           "doctors needing to send meal options to patients manually, and\n" +
@@ -21,8 +21,8 @@ export default function AppsPage() {
           moreLink={"https://devpost.com/software/food-companion"}
           videoLink={"https://www.youtube.com/embed/SjmDGPgLb4U"}>
 
-      </AppField>
-      <AppField
+      </AppPanel>
+      <AppPanel
           description={"Tadd's Museum is a solo project I built in Unreal Engine 5 featuring\n" +
           "my own accomplishments. It is much like this website except it is\n" +
           "interact with in a first person shoot format and I designed a museum\n" +
@@ -32,7 +32,7 @@ export default function AppsPage() {
           "it."}
           moreLink={"https://drive.google.com/drive/u/1/folders/1ymg5FdHVHq-aTg91Tt48QUZlai7MxG9I"}
           videoLink={"https://www.youtube.com/embed/cfMNoveVYeo?si=Pp_2_Vzm1e5WaaAz"}>
-      </AppField>
+      </AppPanel>
       <GoToTop />
     </>
   );
