@@ -8,9 +8,61 @@ import GoToTop from "../GoToTop.jsx";
 import ArtPanel from "../components/ArtPage/ArtPanel.jsx";
 import ThreeDModelPanel from "../components/ArtPage/3dModelPanel.jsx";
 import PropTypes from "prop-types";
+import { useEffect, useState } from 'react';
 
 export default function ArtsPage() {
-  return (
+    const [ids, setIds] = useState(['Loading...']); // useState to store data
+    useEffect(() => {
+        // Fetch all IDs
+        fetch('https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/ids')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(ids => {
+                setIds(ids); // Update data state
+            })
+            .catch(error => {
+                setIds(`Error fetching data: ${error.message}`);
+                console.error('Error fetching IDs:', error);
+            });
+    }, []);
+
+    //  Get the art image and text form art ids
+    const [traditionalData, settraditionalData] = useState([]);
+    const [digitalData, setdigitalData] = useState([]);
+
+    useEffect(() => {
+        const fetchArtData = async () => {
+            const artPromises = ids.map(async (id) => {
+                const textResponse = await fetch(`https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/text/${id}`);
+                const text = await textResponse.text();
+
+                const nameResponse = await fetch(`https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/name/${id}`);
+                const name = await nameResponse.text();
+
+                const imageResponse = await fetch(`https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/img/${id}`);
+                const imageSrc = imageResponse.url;
+
+                const typeResponse = await fetch(`https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/type/${id}`);
+                const type = await typeResponse.text();
+
+                return { id, name, text, type, imageSrc };
+            });
+
+            const results = await Promise.all(artPromises);
+            const traditionalResults = results.filter(({ type }) => type === 'Traditional');
+            const digitalResults = results.filter(({ type }) => type === 'Digital');
+            settraditionalData(traditionalResults);
+            setdigitalData(digitalResults);
+        };
+
+        fetchArtData();
+    }, [ids]);
+
+    return (
     <>
       <PageButtons />
       <div className="headBox">
@@ -23,20 +75,9 @@ export default function ArtsPage() {
       <Section title={"Traditional Sketches"}
                components={
         <>
-          <ArtPanel leftSide={true} description={
-          "The bucket and Pepper is one of my earlier sketches during my time in China. I visited China during the summer of 2024 to see family and I was (and still am) very interested in art. I had always wanted to take art lessons from professional artists, and I figured that since I wasn't doing very much in China, why not take some art lessons! This, and the following 2 sketches are the results of these art lessons that I took during my time in China."
-          }
-                    imageSrc={"./sketch1.jpg"}>
-          </ArtPanel>
-
-          <ArtPanel leftSide={false} description={
-            "This was done during the middle of my art lessons in China. Notice that the lines are more definite and the drawing is cleaner than the first one."
-          } imageSrc={"./sketch2.jpg"}>
-          </ArtPanel>
-
-          <ArtPanel leftSide={true} description={"Tadd's Museum is a solo project I built in Unreal Engine 5 featuring my own accomplishments. It is much like this website except it is interact with in a first person shoot format and I designed a museum using Blender to store all of my accomplishments which you can see in the video's thumbnail on the right. The video is just a walkthrough on how the project works if you don't want to download it."
-          } imageSrc={"./sketch3.jpg"}>
-          </ArtPanel>
+            {traditionalData.map(({ id, name, text, imageSrc }, index) => (
+                <ArtPanel key={id} leftSide={index%2===0} description={text} imageSrc={imageSrc} title={name} />
+            ))}
         </>
         }>
       </Section>
@@ -44,13 +85,16 @@ export default function ArtsPage() {
       <Section title={"Digital Paintings"}
                components={
         <>
-          <ArtPanel leftSide={true} description={
-            "The Cave of Zalarous is a digital painting done on my ipad using the program SketchBook. During the winter of 2023, I found myself in exam week and exam week and I did not have many exams because two of my courses were full year so those did not have winter exams. So I started drawing with my ipad and this is the first finished digital painting I've ever made."
-          } imageSrc={"./cave.jpg"}></ArtPanel>
+            {digitalData.map(({ id, name, text, imageSrc }, index) => (
+                <ArtPanel key={id} leftSide={index%2===0} description={text} imageSrc={imageSrc} title={name} />
+            ))}
+          {/*<ArtPanel leftSide={true} description={*/}
+          {/*  "The Cave of Zalarous is a digital painting done on my ipad using the program SketchBook. During the winter of 2023, I found myself in exam week and exam week and I did not have many exams because two of my courses were full year so those did not have winter exams. So I started drawing with my ipad and this is the first finished digital painting I've ever made."*/}
+          {/*} imageSrc={"./cave.jpg"}></ArtPanel>*/}
 
-          <ArtPanel leftSide={true} description={
-            "After exam week, it was winter break for me. I was satisfied with the Cave of Zalarous and wanted to see how good of a face I could draw. I had been studying drawing skulls at this time so I wanted to put my knowledge to the test!"
-          } imageSrc={"./girl face.jpg"}></ArtPanel>
+          {/*<ArtPanel leftSide={true} description={*/}
+          {/*  "After exam week, it was winter break for me. I was satisfied with the Cave of Zalarous and wanted to see how good of a face I could draw. I had been studying drawing skulls at this time so I wanted to put my knowledge to the test!"*/}
+          {/*} imageSrc={"./girl face.jpg"}></ArtPanel>*/}
         </>
         }>
       </Section>

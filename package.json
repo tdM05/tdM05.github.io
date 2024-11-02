@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vite build",
     "preview": "vite preview",
-    "dev": "vite dev"
+    "dev": "vite --port 4024"
   },
   "dependencies": {
     "@react-three/drei": "^9.111.1",
