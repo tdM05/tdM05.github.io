@@ -31,8 +31,8 @@ export default function ArtsPage() {
     }, []);
 
     //  Get the art image and text form art ids
-    const [traditionalData, settraditionalData] = useState([]);
-    const [digitalData, setdigitalData] = useState([]);
+    const [traditionalData, settraditionalData] = useState(['Loading...']);
+    const [digitalData, setdigitalData] = useState(['Loading...']);
 
     useEffect(() => {
         const fetchArtData = async () => {
