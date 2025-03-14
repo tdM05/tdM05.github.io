@@ -15,11 +15,13 @@ export default function ArtsPage() {
 
     // useState takes in [] because we want to store an array of ids
     const [ids, setIds] = useState([]); // need because states because if not, components will
+    const [loading, setLoading] = useState(true);
     // not rerender when state changes. Api call will change the state.
 
     // if not useEffect, then every rerender will call the api again which is exepensive
     // here useEffect is only called since the second argument (dependencies) is an empty array
     useEffect(() => {
+        setLoading(true);
         // get request to database to get art ids
         fetch('https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/ids')
             .then(response => { // response is the get request's return values (which is a promise)
@@ -43,6 +45,7 @@ export default function ArtsPage() {
 
     // this will rerun whenever ids changes
     useEffect(() => {
+        setLoading(true);
         const fetchArtData = (async () => {
             const artPromises = ids.map(async (id) => {
                 const textResponse = await fetch(`https://personal-website-app-api-ceamb6gyb9csfdbe.canadacentral-01.azurewebsites.net/api/art/text/${id}`);
@@ -65,12 +68,13 @@ export default function ArtsPage() {
             const digitalResults = results.filter(({ type }) => type === 'Digital');
             settraditionalData(traditionalResults);
             setdigitalData(digitalResults);
+            setLoading(false);
         });
         // we declare and then call because it is an async function
         fetchArtData();
     }, [ids]);
 
-    if (traditionalData[0] === LOADING || digitalData[0] === LOADING) {
+    if (loading) {
         return (
             <>
                 <PageButtons/>
