@@ -17,6 +17,50 @@
   text-align: center;
 }
 
+.tagLoadingMain {
+  color: var(--textAccent);
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  font-size: 15pt;
+}
+.tagLoadingSub {
+  color: var(--textSecondary);
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  font-size: 10pt;
+  padding-left: 10pt;
+}
+.loadingContainer {
+  display: flex;
+  gap: 10px; /* Adjust space between elements */
+  align-items: center; /* Aligns text vertically */
+}
+
+.dots {
+  display: inline-block; /* Ensure it's inline with the text */
+  position: relative;
+}
+
+.dots::after {
+  content: ".";
+  position: relative;
+  animation: dotAnimation 1.5s infinite steps(1); /* Use 'forwards' to keep the last state */
+}
+
+@keyframes dotAnimation {
+  0% {
+    content: ".";
+  }
+  33% {
+    content: ". .";
+  }
+  66% {
+    content: ". . .";
+  }
+  100% {
+    content: ". . .";
+  }
+}
 .sketch1Box {
   display: flex;
   justify-content: space-between;
