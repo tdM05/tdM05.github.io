@@ -41,7 +41,7 @@
   position: relative;
 }
 
-.dots::after {
+.dots::before {
   content: ".";
   position: relative;
   animation: dotAnimation 1.5s infinite steps(1); /* Use 'forwards' to keep the last state */
