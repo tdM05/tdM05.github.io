@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb391052-7063-4931-a88c-81dd60e5e57b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frigate.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Fourth_eye.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Frigate.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Frigate.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/GasMask.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cave.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fourth_eye.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fourth_eye.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frigate.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gasMask.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gasMask.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/girl face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sketch1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sketch2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sketch3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/Head Diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/arms diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/arms emit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/arms normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/body diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/body emmision.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/body glossy-body rough.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/body normal baked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/head emit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/head normal baked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/helmet_mat_baseColor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/helmet_mat_emissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/helmet_mat_metallicRoughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/helmet_mat_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/textures/ship_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoToTop.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppsPage/AppPanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppsPage/AppPanel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArtPage/3dModelPanel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArtPage/ArtPanel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/General/PageButtons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/General/PageButtons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Vonique 64 Bold Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Vonique 64 Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Vonique 64 Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Vonique64.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Apps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Apps.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Art.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Art.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Music.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NoPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tdM05&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tdM05/tdM05.github.io&quot;,
+    &quot;accountId&quot;: &quot;78e85655-9339-4922-81be-ba7d83239a06&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nMIu1ciMXmtSxHVFXJVbuGid0L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Art.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/taddm/OneDrive/Desktop/personal/projects/tdM05.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\taddm\OneDrive\Desktop\projects\tdM05.github.io\src\components\General" />
+      <recent name="C:\Users\taddm\OneDrive\Desktop\projects\tdM05.github.io\src\components\AppsPage" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb391052-7063-4931-a88c-81dd60e5e57b" name="Changes" comment="" />
+      <created>1728776736889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728776736889</updated>
+      <workItem from="1728776738250" duration="374000" />
+      <workItem from="1728780024726" duration="8400000" />
+      <workItem from="1728833224972" duration="13000" />
+      <workItem from="1730157052266" duration="372000" />
+      <workItem from="1730157450981" duration="7000" />
+      <workItem from="1730159031902" duration="2398000" />
+      <workItem from="1730236856236" duration="351000" />
+      <workItem from="1730244490569" duration="3171000" />
+      <workItem from="1730401720217" duration="13000" />
+      <workItem from="1730404705077" duration="404000" />
+      <workItem from="1730490215272" duration="1698000" />
+      <workItem from="1730492274412" duration="234000" />
+      <workItem from="1730492531470" duration="6053000" />
+      <workItem from="1730513553811" duration="1398000" />
+      <workItem from="1730581942863" duration="171000" />
+      <workItem from="1738724721093" duration="283000" />
+      <workItem from="1739326113531" duration="189000" />
+      <workItem from="1739326382906" duration="588000" />
+      <workItem from="1739328902337" duration="15000" />
+      <workItem from="1741919287686" duration="4080000" />
+      <workItem from="1741923711455" duration="3536000" />
+      <workItem from="1741963975139" duration="1353000" />
+      <workItem from="1742072198547" duration="191000" />
+      <workItem from="1742074732191" duration="2529000" />
+      <workItem from="1742354781624" duration="33000" />
+      <workItem from="1749345636114" duration="3085000" />
+      <workItem from="1749353003914" duration="2404000" />
+      <workItem from="1749394386046" duration="11551000" />
+      <workItem from="1749415783152" duration="8000" />
+      <workItem from="1749415822823" duration="2092000" />
+      <workItem from="1749419922488" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
