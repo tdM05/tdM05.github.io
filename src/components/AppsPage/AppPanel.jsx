@@ -1,11 +1,11 @@
 import "./AppPanel.css";
 import PropTypes from "prop-types";
 
-export default function AppPanel({description, moreLink, videoLink}) {
+export default function AppPanel({title, description, moreLink, videoLink}) {
     return (
         <div className="appFrame">
             <div className="leftBox">
-                <h2>Food Companion: </h2>
+                <h2>{title}</h2>
                 <p className="leftP">
                     {description}
                 </p>
@@ -29,8 +29,3 @@ export default function AppPanel({description, moreLink, videoLink}) {
     )
 }
 
-AppPanel.propTypes = {
-    description: PropTypes.string.isRequired,
-    moreLink: PropTypes.string.isRequired,
-    videoLink: PropTypes.string.isRequired
-}

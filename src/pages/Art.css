@@ -82,7 +82,7 @@
   margin-top: 100px;
   height: 15cm;
   background-color: rgba(0, 255, 255, 0);
-  overflow: hidden;
+  overflow: visible;
 }
 .sketch3Box {
   display: flex;

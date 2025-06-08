@@ -15,7 +15,7 @@ const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env
 export default function ArtsPage() {
     const [sketches, setSketches] = useState([]);
     const [digitalData, setDigitalData] = useState([]);
-    const [text, setText] = useState("Loading..."); // Added missing semicolon here
+    const [text, setText] = useState("Loading...");
 
     useEffect(() => {
         getSketches();
